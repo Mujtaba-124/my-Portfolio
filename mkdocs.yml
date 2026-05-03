@@ -1,0 +1,127 @@
+site_name: Mujtaba Rasheed | AI & Data Science Portfolio
+site_description: AI Engineer | Data Scientist | Machine Learning Projects | Learning Journey
+site_author: Mujtaba Malik
+site_url: https://yourusername.github.io
+
+repo_name: GitHub
+repo_url: https://github.com/yourusername
+
+copyright: "© 2026 Mujtaba Malik"
+
+# ---------------- THEME ----------------
+theme:
+  name: material
+
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+  font:
+    text: Poppins
+    code: Fira Code
+
+  palette:
+    # Light Mode
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark Mode
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+    - header.autohide
+
+# ---------------- PLUGINS ----------------
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+
+# ---------------- MARKDOWN FEATURES ----------------
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - md_in_html
+  - toc:
+      permalink: true
+
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+
+# ---------------- EXTRA ----------------
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+
+    - icon: fontawesome/brands/kaggle
+      link: https://kaggle.com/yourusername
+
+    - icon: fontawesome/solid/envelope
+      link: mailto:yourmail@gmail.com
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+
+# ---------------- NAVIGATION ----------------
+nav:
+  - Home: index.md
+
+  - Projects:
+      - All Projects: project.md
+      - Machine Learning: project1.md
+      - Deep Learning: project2.md
+      - Computer Vision: project3.md
+      - NLP Project: project4.md
+      - Data Analysis: project5.md
+      - Dashboard Project: project6.md
+      - AI Agent Project: project7.md
+      - Research Project: project8.md
+      - Automation Tool: project9.md
+      - Final Year Project: project10.md
+
+  - Blog:
+      - blog.md
+
+  - Resume: resume.md
+  - About Me: about.md
+  - Contact: contact.md
