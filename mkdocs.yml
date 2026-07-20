@@ -8,7 +8,7 @@ repo_url: https://github.com/Mujtaba-124/my-Portfolio
 
 copyright: "© 2026 Mujtaba Rasheed"
 
-# ---------------- THEME ----------------
+# THEME 
 theme:
   name: material
 
@@ -52,13 +52,13 @@ theme:
     - content.action.view
     - header.autohide
 
-# ---------------- PLUGINS ----------------
+#  PLUGINS
 plugins:
   - search
   - blog:
       blog_dir: blog
 
-# ---------------- MARKDOWN FEATURES ----------------
+#MARKDOWN FEATURES 
 markdown_extensions:
   - admonition
   - attr_list
@@ -81,7 +81,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
-# ---------------- EXTRA ----------------
+#  EXTRA
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -102,7 +102,7 @@ extra_css:
 extra_javascript:
   - javascripts/mathjax.js
 
-# ---------------- NAVIGATION ----------------
+#  NAVIGATION 
 nav:
   - Home: index.md
 

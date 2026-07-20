@@ -1,5 +1,5 @@
-## Project 1:
-> Description: Project 1 is a web application that allows users to ...
+## Project 1: Vision Based LLM for Extracting Information of Satellite Imagery
+> Description: A hybrid Multimodal Geospatial Intelligence (GEOINT) system combining Vision Transformer (ViT), YOLOv8, and CLIP with Gemini 2.0 Flash to analyze satellite and aerial imagery conversationally.
 
 [project1](project1.md)
 
@@ -43,7 +43,7 @@
 
 [project9](project9.md)
 
-## Project 10:
-> Description: Project 10 is a web application that allows users to ...
+## Project 10: Final Year Project - Vision Based LLM for Extracting Information of Satellite Imagery
+> Description: A hybrid Multimodal Geospatial Intelligence (GEOINT) system combining Vision Transformer (ViT), YOLOv8, and CLIP with Gemini 2.0 Flash to analyze satellite and aerial imagery conversationally.
 
 [project10](project10.md)
